@@ -7,7 +7,8 @@
 //
 
 #import "HCViewController.h"
-#import "HCNetWorking.h"
+//#import "HCNetWorking.h"
+#import <HCNetWorking/HCNetWorking.h>
 
 @interface HCViewController ()
 
@@ -19,14 +20,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self test];
-    
+    [self testBtnClick:nil];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)testBtnClick:(id)sender {
+    [self test];
 }
 
 - (void)test {

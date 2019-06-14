@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'HCNetWorking_Example' do
-  pod 'HCNetWorking', :path => '../'
+#  pod 'HCNetWorking', :path => '../'
+  pod 'HCNetWorking', '~> 0.1.1'
 
   target 'HCNetWorking_Tests' do
     inherit! :search_paths
