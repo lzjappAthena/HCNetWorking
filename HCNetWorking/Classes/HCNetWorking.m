@@ -17,4 +17,12 @@
     NSLog(@"组件HCNetWorking - msg:%@", msg);
 }
 
+- (void)postNetWoringWithMsg:(NSString *)msg {
+    if (!msg) {
+        NSLog(@"组件HCNetWorking");
+        return;
+    }
+    NSLog(@"组件HCNetWorking - msg:%@", msg);
+}
+
 @end

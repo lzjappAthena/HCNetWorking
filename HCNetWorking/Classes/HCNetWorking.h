@@ -14,5 +14,7 @@
 
 - (void)getNetWoringWithMsg:(NSString *)msg;
 
+- (void)postNetWoringWithMsg:(NSString *)msg;
+
 @end
 
